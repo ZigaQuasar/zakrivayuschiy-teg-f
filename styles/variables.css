@@ -1,1 +1,60 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-family: 'Inter';
+  --accent-font-family: 'PressStart2P';
+  --title-font-weight: 700;
+  --font-weight: 400;
+  --background-image: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px), linear-gradient(#e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  --text-color: rgb(0,0,0);
+  --content-background-color: rgb(255,255,255);
+  --header-padding-inline: clamp(0.875rem, -1.5127rem + 10.1874vw, 7.656rem);
+  --header-padding-block: clamp(7.5rem, 7.2799rem + 0.9390vw, 8.125rem);
+  --header-line-height: 1;
+  --content-width: clamp(23.4375rem, 16.2859rem + 30.5157vw, 43.75rem);
+  --header-gap: 20px;
+  --header-margin-block-start: 100px;
+  --header-margin-block-end: 96px;
+  --header-logo-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --header-title-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --main-font-size: 18px;
+  --card-title-font-weight: 700;
+  --card-title-line-height: 1.22;
+  --card-title-padding-inline: 10px;
+  --card-title-padding-block: 4px;
+  --card-image-width: clamp(23.188rem, 30.516vw + 16.035rem, 43.5rem);
+  --card-description-gap: 25px;
+  --card-description-padding: 25px;
+  --buttons-gap: 5px;
+  --button-font-size: 14px;
+  --button-padding-block: 10.5px;
+  --button-padding-inline: 17px;
+  --button-line-height: 90%;
+  --watermark-font-size: 14px;
+  --watermark-line-height: 1;
+  --watermark-stroke-color: #fff;
+  --card-gap: 50px;
+  --main-text-line-height: 21px;
+  --like-button-inline-size: 130px;
+  --floppy-image-size: 21px;
+  --dialog-floppy-image-size: 39px;
+  --footer-margin-block-start: 50px;
+  --footer-margin-block-end: 100px;
+  --save-button-padding-inline: 18px;
+  --save-button-padding-block: 15px;
+  --dialog-inline-size: clamp(21.313rem, 1.127vw + 21.048rem, 22.063rem);
+  --dialog-padding: 28px;
+  --backdrop-bg-color: rgba(0,0,0,0.75);
+  --dialog-title-line-height: 1.5;
+  --accent-color: rgb(0, 0, 0);
+  --difference-color: #fff;
+  --heart-contour-color: rgb(0, 0, 0);
+  --animation-fill-color: rgb(255, 0, 0);
+  --card-icon-max-block-size: 38px;
+}
+
+@media (width < 376px) {
+  :root {
+    --header-margin-block-end: 100px;
+    --floppy-image-size: 28px;
+  }
+}
