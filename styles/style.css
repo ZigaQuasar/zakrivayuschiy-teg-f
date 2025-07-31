@@ -152,6 +152,7 @@
   gap: var(--card-description-gap);
   padding: var(--card-description-padding);
   line-height: var(--main-text-line-height);
+  font-variation-settings: 'wght' var(--card-description-font-weight);
 }
 
 .buttons-container {
