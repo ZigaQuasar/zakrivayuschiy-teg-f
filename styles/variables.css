@@ -37,8 +37,8 @@
   --like-button-inline-size: 130px;
   --floppy-image-size: 21px;
   --dialog-floppy-image-size: 39px;
-  --footer-margin-block-start: 50px;
-  --footer-margin-block-end: 100px;
+  --save-button-margin-block-start: 50px;
+  --save-button-margin-block-end: 100px;
   --save-button-padding-inline: 18px;
   --save-button-padding-block: 15px;
   --dialog-inline-size: clamp(21.313rem, 1.127vw + 21.048rem, 22.063rem);
