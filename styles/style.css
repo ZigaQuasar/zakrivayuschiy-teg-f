@@ -278,7 +278,6 @@
   justify-self: center;
   align-items: center;
   gap: 8px;
-  margin-block-start: var(--save-button-margin-block-start, 50px);
   margin-block-end: var(--save-button-margin-block-end, 100px);
   border: 2px solid currentColor;
   padding-inline: var(--save-button-padding-inline, 18px);
